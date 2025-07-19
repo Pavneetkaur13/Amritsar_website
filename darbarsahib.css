@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+
+
+.navbar{
+    background-color:goldenrod;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 20px 50px;
+}
+.navbar li a{
+    padding:3px 3px;
+    text-decoration: none;
+    color:white;
+    
+}
+#link{
+    
+    background-color:#222f22;
+    color:white;
+}
+.hero{
+    background-image: url("../image/darbar.jpg");
+    background-size: cover;
+    height: 550px;
+   display:flex;
+   justify-content: center;
+   align-items: flex-end;
+}
+
+.nav2{
+    background-color:goldenrod;
+    color:rgb(69, 2, 205);
+    display: flex;
+    align-items: center;
+    height: 50px;
+    text-align: center;
+   
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.about{
+    background-color: white;
+    color: black;
+    display:block;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    width:80%;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+a{
+    text-decoration: none;
+}
+.shabad{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: auto;
+    
+}
+
+.star{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    height:300px;
+    width:300px;
+    }
+.photo{
+    float: right;
+    height:300px;
+    width:300px;
+}
+.photo1{
+    float: right;
+    height:200px;
+    width:300px;
+}
+.photo2{
+    float:right;
+    height:200px;
+    width:200px;
+}
+   
+    .foot-panel{
+        background-color: gold;
+        color: white;
+        height:50px;
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        font-size: 1rem;
+        text-decoration: none !important;
+        margin-top: 100px;
+     
+    }
+    .foot-panel a{
+        text-decoration: none;
+    }
+    
+    .foot-panel2{
+        background-color:goldenrod;
+        color:white;
+        height:300px;
+        display: flex;
+        justify-content: space-evenly;
+        text-decoration: none;
+    }
+    
+    ul{
+        margin-top: 20px;
+    }
+    
+    ul a{
+        display:block;
+        font-size:0.85;
+        margin-top: 10px;
+        color:#dddddd;
+        text-decoration: none;
+    }
+    .foot-panel3{
+        background-color: goldenrod;
+        color:white;
+        border-top:0.5px solid white ;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo{
+         background-image: url("ama.logo.jpg");
+        background-size: cover;
+        height:50px;
+        width:100%;
+    }
+    
+    /*panel4*/
+    .foot-panel4{
+        background-color:gold ;
+        color:white;
+        height:80px;
+        font-size: 0.7rem;
+        text-align: center;
+       
+    }
+    
+    .pages{
+        
+        padding-top: 25px;
+    }
+    .copy-right{
+        
+        padding-top: 5px;
+    }
+    
